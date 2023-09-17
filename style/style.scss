@@ -1,0 +1,31 @@
+.main {
+  overflow: hidden;
+  position: relative;
+  .bg {
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+  .content {
+    position: relative;
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-family: "Roboto", sans-serif;
+    }
+    h3 {
+        font-family: 'Poppins', sans-serif;
+      span {
+        color: rgb(198, 41, 41);
+      }
+    }
+    button {
+      padding: 1rem;
+      background-color: rgb(198, 41, 41);
+      display: inline-block;
+      font-family: 'Poppins', sans-serif;
+    }
+   
+    
+  }
+}
